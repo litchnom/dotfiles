@@ -5,3 +5,5 @@ set norelativenumber
 set wrap
 
 colo darkblue
+
+Goyo
