@@ -127,8 +127,8 @@ exec_always "wal -R"
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # g a p s
-set $gaps 20
+set $gaps 8
 gaps inner $gaps
-bindsym $mod+g        gaps inner current set $gaps; exec "echo '1' > /home/cat/.config/i3/mode.txt"; restart
-bindsym $mod+Shift+g  gaps inner current set 0;     exec "echo '0' > /home/cat/.config/i3/mode.txt"; restart 
+bindsym $mod+g        gaps inner current set $gaps; 
+bindsym $mod+Shift+g  gaps inner current set 0;      
 
