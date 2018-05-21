@@ -10,5 +10,5 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep1; done
 
 # Launch bar
-polybar noborderbar &
+polybar bar &
 
