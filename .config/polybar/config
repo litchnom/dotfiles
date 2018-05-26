@@ -20,7 +20,7 @@ alert = #bd2c40
 [bar/bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 25
+height = 16
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
@@ -33,7 +33,7 @@ line-size = 3
 line-color = #f00
 
 border-color = #00000000
-border-bottom-size = 2
+border-bottom-size = 1
 border-bottom-color = ${colors.foreground}
 
 padding-left = 1
@@ -46,7 +46,7 @@ font-0 = Misc Tamsyn:pixelsize=15;2
 font-1 = Misc Tamsyn:pixelsize=15;0
 font-2 = Misc Tamsyn:pixelsize=15;0
 
-modules-left = bspwm i3
+modules-left = i3
 modules-center = xwindow 
 modules-right = wlan eth volume battery date 
 

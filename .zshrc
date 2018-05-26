@@ -16,6 +16,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 alias vim=nvim
 alias v=nvim
+alias sv='sudo nvim'
 alias nfetch="~/Scripts/nfetch.sh"
 alias somafm="~/Scripts/somafm"
 alias arch="~/Scripts/asciilogo.sh"
