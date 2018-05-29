@@ -15,6 +15,7 @@ source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias vim=nvim
+alias vi=nvim
 alias v=nvim
 alias sv='sudo nvim'
 alias nfetch="~/Scripts/nfetch.sh"
