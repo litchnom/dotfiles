@@ -122,7 +122,7 @@ bar {
 new_window none
 new_float none
 
-exec "compton -b"
+exec_always --no-startup-id compton &
 exec_always "wal -R"
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
