@@ -22,6 +22,9 @@ Plug 'nsf/gocode', { 'rtp': 'nvim' }
 " Distraction-free writing
 Plug 'junegunn/goyo.vim'
 
+" Discord rich presence
+Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
 
 " Completion Manager mappings
