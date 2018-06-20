@@ -1,0 +1,15 @@
+#!/bin/bash
+
+title="btw i use arch"
+backend="neofetch --loop"
+
+if [ $1 = "-u" ]; then
+  backend="ufetch"
+fi
+
+echo -e '\033]2;'$title'\007'
+
+# wait a second for neofetch to output
+scrot -d 1 ~/fetch.png &
+
+clear && $backend
