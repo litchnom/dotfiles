@@ -18,3 +18,4 @@ alias vi=nvim
 alias v=nvim
 alias sv='sudo nvim'
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias weather='curl "wttr.in/~London?0"'
