@@ -123,6 +123,7 @@ exec_always "wal -R"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # g a p s
+smart_gaps on
 set $gaps 8
 gaps inner $gaps
 bindsym $mod+g        gaps inner current set $gaps; 
