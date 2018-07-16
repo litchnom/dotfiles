@@ -16,5 +16,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 alias vi=nvim
 alias v=nvim
 alias sv='sudo nvim'
-alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias cfg="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias weather='curl -s "wttr.in/~London?0"'
