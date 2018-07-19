@@ -8,7 +8,7 @@ font pango:misc tamsyn 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt 
+bindsym $mod+Return exec term 
 # horizontal
 bindsym $mod+semicolon split h; exec urxvt
 # vertical
@@ -109,10 +109,15 @@ bindsym XF86AudioLowerVolume exec "amixer -q sset Master 3%-"
 #bindsym XF86AudioMute exec "amixer -q sset Master toggle"
 
 # resize window 
-bindsym $mod+y resize shrink width 10 px or 1 ppt 
-bindsym $mod+u resize grow height 10 px or 1 ppt
-bindsym $mod+i resize shrink height 10 px or 1 ppt
-bindsym $mod+o resize grow width 10 px or 1 ppt
+bindsym $mod+y resize shrink width 10 px or 2 ppt 
+bindsym $mod+u resize grow height 10 px or 2 ppt
+bindsym $mod+i resize shrink height 10 px or 2 ppt
+bindsym $mod+o resize grow width 10 px or 2 ppt
+
+bindsym $mod+Shift+y resize shrink width 10 px or 2 ppt 
+bindsym $mod+Shift+u resize grow height 10 px or 2 ppt
+bindsym $mod+Shift+i resize shrink height 10 px or 2 ppt
+bindsym $mod+Shift+o resize grow width 10 px or 2 ppt
 
 # remove window borders
 new_window none
@@ -124,7 +129,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # g a p s
 smart_gaps on
-set $gaps 8
+set $gaps 6
 gaps inner $gaps
 bindsym $mod+g        gaps inner current set $gaps; 
 bindsym $mod+Shift+g  gaps inner current set 0;      

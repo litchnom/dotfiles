@@ -4,9 +4,5 @@ URxvt.font: xft:misc tamsyn:size=12
 URxvt.scrollBar: false
 
 URxvt.depth: 32
-urxvt.internalBorder: 20
-
-! === Colours ===
-
-!*.cursorColor: #7fff00
+urxvt.internalBorder: 8
 
