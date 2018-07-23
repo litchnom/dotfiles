@@ -121,10 +121,10 @@ bindsym $mod+Shift+i resize shrink height 10 px or 2 ppt
 bindsym $mod+Shift+o resize grow width 10 px or 2 ppt
 
 # remove window borders
-new_window none
-new_float none
+new_window pixel 0 
+new_float pixel 0
 
-exec_always --no-startup-id compton &
+# exec_always --no-startup-id compton &
 exec_always "wal -R"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
