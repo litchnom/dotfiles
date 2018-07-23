@@ -46,8 +46,8 @@ font-0 = Misc Tamsyn:pixelsize=15;2
 font-1 = Misc Tamsyn:pixelsize=15;0
 font-2 = Misc Tamsyn:pixelsize=15;0
 
-modules-left = i3
-modules-center = xwindow 
+modules-left = xwindow 
+modules-center = i3
 modules-right = wlan eth volume battery date 
 
 cursor-click = pointer
@@ -55,7 +55,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:60:...%
+label = %title:0:70:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -274,12 +274,12 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 98
+full-at = 95
 
 time-format = %H:%M
 
-label-charging = %percentage%<%time%
-label-discharging = %percentage%>%time%
+label-charging = + %time%
+label-discharging = - %time%
 
 format-charging = <label-charging>
 format-charging-underline = ${colors.background}
