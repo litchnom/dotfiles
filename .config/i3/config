@@ -7,13 +7,13 @@ font pango:misc tamsyn 12
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-set $term term
+set $term termite
 # start a terminal
-bindsym $mod+Return exec term 
+bindsym $mod+Return exec $term 
 # horizontal
-bindsym $mod+semicolon split h; exec term
+bindsym $mod+semicolon split h; exec $term
 # vertical
-bindsym $mod+v split v; exec term
+bindsym $mod+v split v; exec $term
 
 # kill focused window
 bindsym $mod+Shift+q kill
