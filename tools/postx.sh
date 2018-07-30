@@ -1,6 +1,6 @@
 #!/bin/bash
 
-image_url="https://i.imgur.com/HXbT3q0.png"
+image_url="https://i.imgur.com/HXbT3qO.png"
 path="$HOME/default.png"
 
 # set a default background
