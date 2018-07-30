@@ -60,10 +60,6 @@ rm "$vimsetup"
 
 
 # configure git
-email="cathalflynn@hotmail.co.uk"
-name="Cat Flynn"
-git config --global user.email $email
-git config --global user.name $name
 git config --global alias.st status
 
 
