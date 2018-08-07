@@ -3,7 +3,7 @@
 rm $HOME/default.png
 
 # packages
-utils="ranger feh redshift scrot"
+utils="ranger feh redshift scrot rofi"
 rice="neofetch cmatrix python-pywal"
 browser="firefox"
 shell="zsh zsh-syntax-highlighting"
@@ -11,10 +11,10 @@ fonts="tamsyn-font"
 terminal="termite"
 wm="i3-gaps"
 xserver="xorg xorg-xinit"
-devenv="python-pip python"
+python="python-pip python"
 editor="neovim"
 
-sudo pacman -Rnsc $editor $xserver $terminal $shell $utils $rice $devenv $fonts $browser
+sudo pacman -Rnsc $editor $wm $xserver $terminal $shell $utils $rice $python $fonts $browser
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/uninstall.sh)"
 
