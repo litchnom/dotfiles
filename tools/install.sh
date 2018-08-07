@@ -2,7 +2,7 @@
 
 # packages
 editor=neovim
-xserver="xorg xorg-apps xorg-xinit"
+xserver="xorg xorg-apps xorg-xinit xterm"
 wm="i3-gaps"
 terminal="termite"
 shell="zsh zsh-syntax-highlighting"
