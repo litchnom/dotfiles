@@ -22,7 +22,3 @@ alias weather='curl -s "wttr.in/~London?0"'
 # you're not in Vim ya dummy
 alias :q=exit
 alias :wq=exit
-
-# Import colourscheme from 'wal' asynchronously
-# (cat ~/.cache/wal/sequences &)
-cat ~/.cache/wal/sequences

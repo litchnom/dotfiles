@@ -3,12 +3,12 @@
 rm $HOME/default.png
 
 # packages
-utils="ranger feh redshift scrot rofi"
+utils="ranger feh redshift scrot rofi w3m"
 rice="neofetch cmatrix python-pywal"
 browser="firefox"
 shell="zsh zsh-syntax-highlighting"
 fonts="tamsyn-font"
-terminal="termite"
+terminal="urxvt"
 wm="i3-gaps"
 xserver="xorg xorg-xinit"
 python="python-pip python"

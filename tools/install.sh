@@ -4,9 +4,9 @@
 editor=neovim
 xserver="xorg xorg-apps xorg-xinit xterm"
 wm="i3-gaps"
-terminal="termite"
+terminal="urxvt"
 shell="zsh zsh-syntax-highlighting"
-utils="git ranger feh redshift scrot rofi"
+utils="git ranger feh redshift scrot rofi w3m"
 rice="neofetch cmatrix python-pywal"
 python="python python-pip"
 fonts="tamsyn-font"
