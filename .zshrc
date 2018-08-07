@@ -1,4 +1,4 @@
-export ZSH=/home/cat/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.scripts
