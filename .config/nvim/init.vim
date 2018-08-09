@@ -12,9 +12,17 @@ set softtabstop=2
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Completions
-Plug 'roxma/nvim-completion-manager'
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+" Enable for all buffers
+autocmd BufEnter * call ncm2#enable_for_buffer()
+
+" Completion Sources
+Plug 'ncm2/ncm2-path'
+" Current Buffer
+Plug 'ncm2/ncm2-bufword'
 " JavaScript 
-Plug 'roxma/nvim-cm-tern', { 'do': 'npm install' }
+Plug 'ncm2/ncm2-tern'
 " Go
 Plug 'fatih/vim-go'
 Plug 'nsf/gocode', { 'rtp': 'nvim' }
