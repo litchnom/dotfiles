@@ -16,6 +16,7 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 " Enable for all buffers
 autocmd BufEnter * call ncm2#enable_for_buffer()
+set completeopt=noinsert,menuone,noselect
 
 " Completion Sources
 Plug 'ncm2/ncm2-path'
