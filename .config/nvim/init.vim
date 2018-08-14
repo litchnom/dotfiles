@@ -8,6 +8,8 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 
+filetype plugin on
+
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -23,9 +25,10 @@ Plug 'ncm2/ncm2-path'
 " Current Buffer
 Plug 'ncm2/ncm2-bufword'
 " JavaScript 
-Plug 'ncm2/ncm2-tern'
+" Plug 'ncm2/ncm2-tern'
 " Go
-Plug 'fatih/vim-go'
+Plug 'ncm2/ncm2-go'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'nsf/gocode', { 'rtp': 'nvim' }
 
 " Distraction-free writing
