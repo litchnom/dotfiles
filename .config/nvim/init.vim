@@ -40,7 +40,7 @@ Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 " Completion Manager mappings
-inoremap <expr> <Tab> pumvisible() ? "\<Enter>" : "\<Tab>"
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>\<Esc>\a" : "\<Tab>"
 inoremap <expr> <A-j> pumvisible() ? "\<C-n>" : "\<A-j>"
 inoremap <expr> <A-k> pumvisible() ? "\<C-p>" : "\<A-k>"
 
