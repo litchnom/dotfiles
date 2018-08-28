@@ -55,6 +55,8 @@ function! ClipboardPaste()
   let @@ = system('xclip -o -selection clipboard')
 endfunction
 
-vnoremap <silent> y y:call ClipboardYank()<cr>
-vnoremap <silent> d d:call ClipboardYank()<cr>
-nnoremap <silent> p :call ClipboardPaste()<cr>p
+vnoremap <silent> <C-c> y:call ClipboardYank()<cr>
+vnoremap <silent> <C-x> d:call ClipboardYank()<cr>
+nnoremap <silent> <C-V> :call ClipboardPaste()<cr>p
+
+colo desert
