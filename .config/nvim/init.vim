@@ -34,6 +34,9 @@ Plug 'nsf/gocode', { 'rtp': 'nvim' }
 " Distraction-free writing
 Plug 'junegunn/goyo.vim'
 
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
 " Discord rich presence
 Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins' }
 
