@@ -6,8 +6,8 @@ xserver="xorg xorg-apps xorg-xinit xterm"
 wm="i3-gaps"
 terminal="urxvt"
 shell="zsh zsh-syntax-highlighting"
-utils="git ranger feh redshift scrot rofi w3m"
-rice="neofetch cmatrix python-pywal"
+utils="git ranger feh redshift scrot rofi"
+rice="neofetch python-pywal"
 python="python python-pip"
 fonts="tamsyn-font"
 browser="firefox"
@@ -31,7 +31,7 @@ git init --bare $dotdir
 cfg="git --git-dir=$dotdir --work-tree=$HOME"
 $cfg config --local status.showUntrackedFiles no
 # set the remote
-remote="https://github.com/monodokimes/dotfiles"
+remote="https://github.com/litchnom/dotfiles"
 $cfg remote add origin $remote
 # download latest version
 $cfg pull origin master
