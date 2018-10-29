@@ -4,7 +4,7 @@
 editor=neovim
 xserver="xorg xorg-apps xorg-xinit xterm"
 wm="i3-gaps"
-terminal="urxvt"
+terminal="rxvt-unicode"
 shell="zsh zsh-syntax-highlighting"
 utils="git ranger feh redshift scrot rofi"
 rice="neofetch python-pywal"
