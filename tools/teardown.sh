@@ -3,16 +3,16 @@
 rm $HOME/default.png
 
 # packages
-utils="ranger feh redshift scrot rofi w3m"
-rice="neofetch cmatrix python-pywal"
-browser="firefox"
-shell="zsh zsh-syntax-highlighting"
-fonts="tamsyn-font"
-terminal="urxvt"
+editor=neovim
+xserver"xorg xorg-apps xorg-xinit xterm"
 wm="i3-gaps"
-xserver="xorg xorg-xinit"
-python="python-pip python"
-editor="neovim"
+terminal="rxvt-unicode"
+shell="zsh zsh-syntax-highlighting"
+utils="git ranger feh redshift scrot rofi alsa-utils"
+rice="neofetch python-pywal"
+python="python python-pip"
+fonts="tamsyn-font"
+browser="firefox"
 
 sudo pacman -Rnsc $editor $wm $xserver $terminal $shell $utils $rice $python $fonts $browser
 
@@ -29,7 +29,7 @@ sudo rm -r .bash_logout
 sudo rm -r .bash_profile
 sudo rm -r .bashrc
 sudo rm -r .config
-sudo rm -r ".zcompdump-limiting-factor-5.5.1"
+sudo rm -r .zcompdump*
 sudo rm -r .zsh_history
 sudo rm -r .zshrc
 sudo rm -r git
@@ -38,6 +38,10 @@ sudo rm -r .Xresources
 sudo rm -r .fehbg
 sudo rm -r .scripts
 sudo rm -r .xinitrc
+sudo rm -r .gitconfig
+sudo rm -r .mozilla
+sudo rm -r tools
+
 #!/bin/bash
 
 

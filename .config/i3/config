@@ -21,10 +21,13 @@ bindsym $mod+Shift+q kill
 # start rofi
 bindsym $mod+d exec "rofi -show run"
 # start browser
-bindsym $mod+b exec "firefox-nightly"
+bindsym $mod+b exec "firefox"
 
 # Screenshot screen
 bindsym $mod+s exec "scrot ~/ss.png &"
+
+# Screenshot region
+bindsym $mod+Shift+s exec "scrot -s &"
 
 # change focus
 bindsym $mod+h focus left
