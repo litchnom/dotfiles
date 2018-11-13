@@ -48,15 +48,4 @@ inoremap <expr> <A-k> pumvisible() ? "\<C-p>" : "\<A-k>"
 noremap <expr> <A-j> "\<C-e>"
 noremap <expr> <A-k> "\<C-y>"
 
-function! ClipboardYank()
-  call system('xclip -i -selection clipboard', @@)
-endfunction
-function! ClipboardPaste()
-  let @@ = system('xclip -o -selection clipboard')
-endfunction
-
-vnoremap <silent> <C-c> y:call ClipboardYank()<cr>
-vnoremap <silent> <C-x> d:call ClipboardYank()<cr>
-nnoremap <silent> <C-V> :call ClipboardPaste()<cr>p
-
 colo desert

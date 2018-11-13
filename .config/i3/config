@@ -27,7 +27,7 @@ bindsym $mod+b exec "firefox"
 bindsym $mod+s exec "scrot ~/ss.png &"
 
 # Screenshot region
-bindsym $mod+Shift+s exec "scrot -s &"
+bindsym --release $mod+Shift+s exec "scrot -s ~/ss.png &"
 
 # change focus
 bindsym $mod+h focus left
@@ -110,18 +110,13 @@ bindsym $mod+Shift+e exec "i3-msg exit"
 
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master 3%+"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master 3%-"
-#bindsym XF86AudioMute exec "amixer -q sset Master toggle"
+bindsym XF86AudioMute exec "amixer -q sset Master toggle"
 
 # resize window 
 bindsym $mod+y resize shrink width 10 px or 2 ppt 
 bindsym $mod+u resize grow height 10 px or 2 ppt
 bindsym $mod+i resize shrink height 10 px or 2 ppt
 bindsym $mod+o resize grow width 10 px or 2 ppt
-
-bindsym $mod+Shift+y resize shrink width 10 px or 2 ppt 
-bindsym $mod+Shift+u resize grow height 10 px or 2 ppt
-bindsym $mod+Shift+i resize shrink height 10 px or 2 ppt
-bindsym $mod+Shift+o resize grow width 10 px or 2 ppt
 
 # remove window borders
 new_window pixel 0 
