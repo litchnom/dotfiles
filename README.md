@@ -1,5 +1,5 @@
 # dotfiles
-just *love* configuring shit
+uwu
 
 ## Installation
 
